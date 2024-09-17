@@ -69,7 +69,7 @@ const WeatherCard = ({
             <p className='flex-1 text-center p-2'>{time}</p>
 
         </div>
-        <div className='w-full flex justify-between items-center mt-4'>
+        <div className='w-full flex justify-between items-center mt-4 gap-3'>
 
             <p className='flex-1 text-center p-1 font-bold bg-[#89ABE3FF] shadow-sm rounded-md text-[#FCF6F5FF]'>Wind Speed <p className='font-normal'>{windspeed} km/h</p> </p>
 
